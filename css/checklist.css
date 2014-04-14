@@ -1,0 +1,92 @@
+.page {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, p, ul, form, label {
+    line-height: 1em;
+}
+
+h1, p, ul, form {
+    margin-top: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.responsive-circle-container {
+    overflow: hidden;
+    clear: both;
+}
+
+.responsive-circle {
+    width: 25%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 50%;
+    float: left;
+}
+
+.svg-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.quarter-image {
+    width: 24%;
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+
+.nothing-radio-container {
+    display: block;
+}
+
+.numbered-radio-container {
+    font-size: 32px;
+    height: 32px;
+    width :64px;
+    border-radius: 32px;
+    border: 1px solid #666;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 0;
+    float: left;
+    margin: 16px 8px 0 0;
+}
+
+.numbered-radio-container:hover {
+    color: #FFF;
+    background-color: #666;
+}
+
+.numbered-radio-container.selected {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .page {
+        width: auto;
+    }
+}

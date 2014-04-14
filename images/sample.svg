@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+
+        <g id="icon" class="icon">
+
+                <g class="backyard">
+                    <rect id="backyard" d="M224.059,97.927 L224.059,244.5 L287.5,244.5 L287.5,97.927 L224.059,97.927 Z M224.059,97.927" fill="#E55C3C" x="224.059" y="97.927" width="63.441" height="146.573"></rect>
+                    <path id="backyard-roof" d="M165.5,42.5 L255.369,42.5 L299.798,105.5 L165.5,105.5 L165.5,42.5" fill="#B8492E"></path>
+                </g>
+
+                <rect id="tube-body" x="42" y="29" width="34" height="70" fill="#E55C3C" />
+                <rect id="tube-upper" x="37" y="29" width="44" height="12" fill="#E55C3C" />
+                <path id="tube-shadow" d="M76,42.5 L75.279,54.206 L42,87.997 L42,76.333 L76,42.5 Z M75,42" fill="#B8492E"></path>
+
+
+                <path id="house-roof" fill="#E98158" d="M127,1L0,128L252,128" />
+                <rect id="house-body" x="17" y="127" width="219" height="137"  fill="#E98158" />
+
+
+                <g id="window-upper">
+                    <rect x="108" y="98" width="15" height="19" fill="white" />
+                    <rect x="129" y="98" width="15" height="19" fill="white" />
+                    <ellipse cx="126" cy="92" rx="18" ry="23" fill="white" />
+                    <rect x="108" y="93" width="36" height="6" fill="#E98158" />
+                    <rect x="123" y="68" width="6" height="52" fill="#E98158" />
+                </g>
+
+
+                <g id="window">
+                    <rect id="window-item-main" x="36" y="170" width="17" height="17" fill="white" />
+                    <rect class="window-item" x="58" y="170" width="17" height="17" fill="white" />
+                    <rect class="window-item" x="36" y="192" width="17" height="17" fill="white" />
+                    <rect class="window-item" x="58" y="192" width="17" height="17" fill="white" />
+                    <rect class="window-th" x="30" y="213" width="50" height="5" fill="white" />
+                </g>
+                <use id="window2" xlink:href="#window" x="142" y="0" />
+
+                <rect id="door-body" x="101" y="188" width="49" height="76"  fill="#E55C3C" />
+                <rect id="door-th" x="95" y="258" width="62" height="6" fill="white" />
+                <circle id="door-handle" cx="116" cy="225" r="3" fill="white" />
+                <path id="door-shadow" d="M142.5,258.5 L142.5,194.5 L101.5,194.5 L101.5,188.5 L149.5,188.5 L149.5,258 L142.5,258 Z M142.5,258.5" fill="#B8492E"></path>
+
+        </g>
+
+    </g>
+</svg>
